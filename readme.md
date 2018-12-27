@@ -18,12 +18,12 @@ python pix2pix_new.py --checkpoint_dir ./checkpoint_dir_train17_L1_GAN --is_L2 F
 ```
 As for the parameter of is_L2, False stands for L1 and True for L2 loss. As for gan_weight, 0 stands for not using gan, 1 for using gan. And please donot forget  to modify the checkpoint_dir for different mode.
 
-The classfication model is using the CNN blow:
+The classfication model is using the CNN blow:<br>
 ![image](https://github.com/wangzelong0663/my_refined_SAR/raw/master/image/3.png)<br>
 
 ## the result
-After running the 1000 epoch.
+After running the 1000 epoch.<br>
 ![image](https://github.com/wangzelong0663/my_refined_SAR/raw/master/image/4.png)<br>
-from the left to right: the simulated data, the real data, L1, L1+gan, L2,L2+GAN.
+from the left to right: the simulated data, the real data, L1, L1+gan, L2,L2+GAN.<br>
 
 ## the data will upload to baiduyun or somewhere soon!
